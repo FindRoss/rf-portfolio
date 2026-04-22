@@ -1,0 +1,34 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","theme":"rf-portfolio"} /-->
+
+<!-- wp:group {
+	"tagName":"main",
+	"align":"full",
+	"style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"}}},
+	"layout":{"type":"constrained"}
+} -->
+<main class="wp-block-group alignfull">
+
+	<!-- wp:group {
+		"style":{"spacing":{"blockGap":"var:preset|spacing|xs","margin":{"bottom":"var:preset|spacing|lg"}}},
+		"layout":{"type":"default"}
+	} -->
+	<div class="wp-block-group">
+		<!-- wp:post-title {"level":1} /-->
+		<!-- wp:post-date {
+			"style":{
+				"typography":{"fontSize":"var:preset|font-size|sm"},
+				"color":{"text":"var:preset|color|subtle"}
+			}
+		} /-->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+
+	<!-- wp:post-navigation-link {"type":"previous","label":"← Previous"} /-->
+	<!-- wp:post-navigation-link {"type":"next","label":"Next →"} /-->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","theme":"rf-portfolio"} /-->

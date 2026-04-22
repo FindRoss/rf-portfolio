@@ -1,0 +1,32 @@
+/*
+Theme Name: RF Portfolio
+Theme URI:
+Author: Ross Findlay
+Author URI:
+Description: A simple hand-built block theme for learning WordPress FSE.
+Version: 1.0.0
+Requires at least: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rf-portfolio
+Tags: full-site-editing, block-patterns, one-column, portfolio
+*/
+
+/*
+ * Almost all styling lives in theme.json.
+ * This file only needs to exist so WordPress recognises the theme.
+ * Add CSS here only for things theme.json cannot express.
+ */
+
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Remove default list styles in navigation */
+.wp-block-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
