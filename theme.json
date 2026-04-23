@@ -171,5 +171,10 @@
 			"area": "footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{ "name": "single-book",   "title": "Single Book",   "postTypes": ["book"] },
+		{ "name": "archive-book",  "title": "Archive: Books" },
+		{ "name": "single-movie",  "title": "Single Movie",  "postTypes": ["movie"] },
+		{ "name": "archive-movie", "title": "Archive: Movies" }
+	]
 }
