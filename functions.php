@@ -6,7 +6,6 @@
 
 require_once get_template_directory() . '/inc/cpt-books.php';
 require_once get_template_directory() . '/inc/cpt-movies.php';
-require_once get_template_directory() . '/inc/taxonomies.php';
 
 add_action( 'after_setup_theme', function () {
 	// Enable default block styles (e.g. the "Outline" button style).

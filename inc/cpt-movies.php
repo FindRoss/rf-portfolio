@@ -20,4 +20,19 @@ add_action( 'init', function () {
 		'show_in_rest' => true,
 		'menu_icon'    => 'dashicons-video-alt2',
 	] );
+
+	register_post_meta( 'movie', 'director', [
+		'show_in_rest'  => true,
+		'single'        => true,
+		'type'          => 'string',
+		'auth_callback' => function () { return current_user_can( 'edit_posts' ); },
+	] );
+
+	register_post_meta( 'movie', 'year', [
+		'show_in_rest'  => true,
+		'single'        => true,
+		'type'          => 'string',
+		'auth_callback' => function () { return current_user_can( 'edit_posts' ); },
+	] );
+
 } );
