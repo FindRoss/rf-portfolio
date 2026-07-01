@@ -1,0 +1,13 @@
+.rfp-movie-card {
+  padding: var(--wp--preset--spacing--md);
+  border: 1px solid var(--wp--preset--color--subtle);
+  border-radius: var(--wp--preset--border--radius--sm);
+  overflow: hidden;
+}
+
+.rfp-movie-card img {
+  border-radius: var(--wp--preset--border--radius--sm);
+  display: block;
+}
+
+/*# sourceMappingURL=archive-movie.css.map */

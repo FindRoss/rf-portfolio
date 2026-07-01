@@ -1,0 +1,12 @@
+{
+  "name": "rf-portfolio-theme",
+  "version": "1.0.0",
+  "description": "A simple hand-built WordPress block theme",
+  "scripts": {
+    "dev": "sass --watch inc/scss:inc/css",
+    "build": "sass inc/scss:inc/css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

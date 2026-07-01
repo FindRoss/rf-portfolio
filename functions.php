@@ -20,4 +20,22 @@ add_action( 'wp_enqueue_scripts', function () {
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
+
+	// Load utility classes for containers and spacing.
+	wp_enqueue_style(
+		'rf-portfolio-utilities',
+		get_theme_file_uri( '/inc/css/utilities.css' ),
+		[],
+		wp_get_theme()->get( 'Version' )
+	);
+
+	// Load archive-movie specific styles.
+	if ( is_post_type_archive( 'movie' ) ) {
+		wp_enqueue_style(
+			'rf-portfolio-archive-movie',
+			get_theme_file_uri( '/inc/css/archive-movie.css' ),
+			[],
+			wp_get_theme()->get( 'Version' )
+		);
+	}
 } );

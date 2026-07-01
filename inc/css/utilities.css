@@ -1,0 +1,21 @@
+.rfp-container {
+  padding-left: var(--wp--preset--spacing--sm);
+  padding-right: var(--wp--preset--spacing--sm);
+}
+@media (min-width: 768px) {
+  .rfp-container {
+    padding-left: var(--wp--preset--spacing--md);
+    padding-right: var(--wp--preset--spacing--md);
+  }
+}
+
+.rfp-inline {
+  display: flex;
+  gap: var(--wp--preset--spacing--xs);
+  flex-wrap: wrap;
+}
+.rfp-inline p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=utilities.css.map */

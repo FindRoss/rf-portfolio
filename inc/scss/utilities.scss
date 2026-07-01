@@ -1,0 +1,23 @@
+// Utility Classes for RF Portfolio Theme
+
+$breakpoint-tablet: 768px;
+
+.rfp-container {
+	padding-left: var(--wp--preset--spacing--sm);
+	padding-right: var(--wp--preset--spacing--sm);
+
+	@media (min-width: $breakpoint-tablet) {
+		padding-left: var(--wp--preset--spacing--md);
+		padding-right: var(--wp--preset--spacing--md);
+	}
+}
+
+.rfp-inline {
+	display: flex;
+	gap: var(--wp--preset--spacing--xs);
+	flex-wrap: wrap;
+
+	p {
+		margin: 0;
+	}
+}
