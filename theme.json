@@ -22,8 +22,33 @@
 				},
 				{
 					"slug": "subtle",
-					"color": "#E8E4E0",
+					"color": "#EDEDE8",
 					"name": "Subtle"
+				},
+				{
+					"slug": "lime",
+					"color": "#E8FF5C",
+					"name": "Lime"
+				},
+				{
+					"slug": "graphite",
+					"color": "#333333",
+					"name": "Graphite"
+				},
+				{
+					"slug": "steel",
+					"color": "#555555",
+					"name": "Steel"
+				},
+				{
+					"slug": "muted",
+					"color": "#666666",
+					"name": "Muted"
+				},
+				{
+					"slug": "faint",
+					"color": "#999999",
+					"name": "Faint"
 				}
 			]
 		},
@@ -31,16 +56,37 @@
 			"fontFamilies": [
 				{
 					"slug": "system",
-					"name": "System",
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif"
+					"name": "Inter",
+					"fontFamily": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/inter/InterVariable.woff2" ]
+						}
+					]
 				},
 				{
 					"slug": "mono",
-					"name": "Monospace",
-					"fontFamily": "'SF Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace"
+					"name": "JetBrains Mono",
+					"fontFamily": "'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace",
+					"fontFace": [
+						{
+							"fontFamily": "JetBrains Mono",
+							"fontWeight": "100 800",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Variable.woff2" ]
+						}
+					]
 				}
 			],
 			"fontSizes": [
+				{
+					"slug": "xs",
+					"name": "Extra Small",
+					"size": "clamp(0.7rem, 1.2vw, 0.8125rem)"
+				},
 				{
 					"slug": "sm",
 					"name": "Small",
@@ -50,6 +96,11 @@
 					"slug": "base",
 					"name": "Base",
 					"size": "clamp(1rem, 2vw, 1.125rem)"
+				},
+				{
+					"slug": "md",
+					"name": "Medium",
+					"size": "clamp(1.125rem, 2.25vw, 1.25rem)"
 				},
 				{
 					"slug": "lg",
@@ -102,6 +153,13 @@
 		"color": {
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
+		},
+		"border": {
+			"top": {
+				"color": "var(--wp--preset--color--contrast)",
+				"style": "solid",
+				"width": "6px"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system)",

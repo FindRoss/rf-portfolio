@@ -24,10 +24,16 @@
 		<!-- wp:site-title {
 			"level":0,
 			"style":{
-				"typography":{"fontWeight":"600","fontSize":"var:preset|font-size|base"},
+				"typography":{"fontWeight":"800","fontSize":"var:preset|font-size|md","letterSpacing":"-0.02em"},
 				"color":{"text":"var:preset|color|contrast"}
 			}
 		} /-->
+
+		<!-- wp:group {
+			"style":{"spacing":{"blockGap":"40px"}},
+			"layout":{"type":"flex","flexWrap": "nowrap", "alignItems": "center"} 
+		} -->
+		<div class="wp-block-group">
 
 		<!-- wp:navigation {
 			"layout":{"type":"flex","flexWrap":"nowrap"},
@@ -35,7 +41,30 @@
 				"typography":{"fontSize":"var:preset|font-size|sm"}
 			},
 			"overlayMenu":"never"
-		} /-->
+		} -->
+			<!-- wp:navigation-link {"label":"Work", "url":"#work", "kind": "custom"} /-->
+			<!-- wp:navigation-link {"label":"Stack", "url":"#stack", "kind": "custom"} /-->
+			<!-- wp:navigation-link {"label":"About", "url":"#about", "kind": "custom"} /-->
+		<!-- /wp:navigation -->
+
+		<!-- wp:buttons {"style": {"spacing": {"blockGap": "0"}}} -->
+		<div class="wp-block-buttons">
+			<!-- wp:button {
+				"style": {
+				"border": {"radius": "100px"}, 
+				"spacing": {"padding":{"top":"10px","bottom":"10px","left":"18px","right":"18px"}},
+				"typography": {"fontSize": "var:preset|font-size|sm", "fontWeight":"500"}
+				} 
+			} -->
+			<div class="wp-block-button">
+				<a href="" class="wp-block-button__link wp-element-button" href="#">Contact</a>
+			</div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
+
+		</div>
+		<!-- /wp:group -->
 
 	</div>
 	<!-- /wp:group -->

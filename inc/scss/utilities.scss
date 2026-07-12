@@ -2,6 +2,19 @@
 
 $breakpoint-tablet: 768px;
 
+// Sticky footer: WP core wraps every template in .wp-site-blocks, with
+// header/main/footer as direct children — stretch that column and let
+// main grow so the footer sits at the bottom on short pages.
+.wp-site-blocks {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	> main {
+		flex: 1 0 auto;
+	}
+}
+
 .rfp-container {
 	padding-left: var(--wp--preset--spacing--sm);
 	padding-right: var(--wp--preset--spacing--sm);
