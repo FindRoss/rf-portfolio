@@ -29,26 +29,24 @@
 
 		<!-- wp:heading {
 			"level":1,
+			"fontSize": "xxl",
 			"style":{
 				"typography":{
-					"fontSize":"var:preset|font-size|xxl",
-					"fontWeight":"700",
-					"letterSpacing":"-0.02em",
-					"lineHeight":"1.05"
+					"fontWeight":"800",
+					"letterSpacing":"-0.03em",
+					"lineHeight":"1.25"
 				}
 			}
 		} -->
-		<h1>Ross Findlay</h1>
+		<h1 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.03em;line-height:1.25">WordPress,<br>built to <mark style="background-color:var(--wp--preset--color--lime);padding:0 10px">perform.</mark></h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {
-			"style":{
-				"typography":{"fontSize":"var:preset|font-size|lg"},
-				"color":{"text":"var:preset|color|contrast"},
-				"spacing":{"margin":{"top":"0"}}
-			}
+			"fontSize":"lg",
+			"textColor":"graphite",
+			"style":{"spacing":{"margin":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|md"}}}
 		} -->
-		<p>Wordpress developer making things for the web.</p>
+		<p class="has-graphite-color has-text-color has-lg-font-size" style="margin-top:var(--wp--preset--spacing--md);margin-bottom:var(--wp--preset--spacing--md)">I architect custom WordPress themes and plugins for teams who care about speed, technical SEO, and code that doesn't fall apart at scale.</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|sm"}}}} -->
