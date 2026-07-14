@@ -1,0 +1,17 @@
+.rfp-stack-grid {
+	border: 1px solid var(--wp--preset--color--graphite);
+
+	> .wp-block-column {
+		padding: 2rem 1.75rem;
+	}
+
+	> .wp-block-column:not(:first-child) {
+		border-left: 1px solid var(--wp--preset--color--graphite);
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}

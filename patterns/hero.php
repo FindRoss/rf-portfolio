@@ -49,7 +49,7 @@
 		<p class="has-graphite-color has-text-color has-lg-font-size" style="margin-top:var(--wp--preset--spacing--md);margin-bottom:var(--wp--preset--spacing--md)">I architect custom WordPress themes and plugins for teams who care about speed, technical SEO, and code that doesn't fall apart at scale.</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:buttons {"style": {"spacing":{"blockGap: "16px", "margin": {"top":"var:preset|spacing|sm"}}}} -->
+		<!-- wp:buttons {"style": {"spacing":{"blockGap": "16px", "margin": {"top":"var:preset|spacing|sm"}}}} -->
 		<div class="wp-block-buttons">
 
 			<!-- wp:button {
