@@ -9,6 +9,7 @@
 
 <!-- wp:group {
 	"align":"full",
+	"className": "rfp-container",
 	"style":{
 		"spacing":{
 			"padding":{
@@ -19,7 +20,7 @@
 	},
 	"layout":{"type":"constrained"}
 } -->
-<div class="wp-block-group alignfull">
+<div class="wp-block-group alignfull rfp-container">
 
 	<!-- wp:group {
 		"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},
