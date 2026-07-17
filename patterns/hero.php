@@ -13,14 +13,14 @@
 	"style":{
 		"spacing":{
 			"padding":{
-				"top":"var:preset|spacing|xxl",
-				"bottom":"var:preset|spacing|xxl"
+				"top":"var:preset|spacing|xl",
+				"bottom":"var:preset|spacing|xl"
 			}
 		}
 	},
 	"layout":{"type":"constrained"}
 } -->
-<div class="wp-block-group alignfull rfp-container">
+<div class="wp-block-group alignfull rfp-container" style="padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)">
 
 	<!-- wp:group {
 	 	"align": "wide",
