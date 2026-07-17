@@ -38,7 +38,7 @@
 			"textColor":"muted",
 			"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}
 		} -->
-		<p class="has-muted-color has-text-color has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0">03 projects — more on request</p>
+		<p class="has-muted-color has-text-color has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0;max-width:340px">I need to write something here about the different things I have created with different tools, including with React and WordPress.</p>
 		<!-- /wp:paragraph -->
 
 	</div>
