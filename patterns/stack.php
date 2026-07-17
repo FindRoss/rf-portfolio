@@ -21,8 +21,8 @@
 
  	<!-- wp:group {
 		"align": "wide",
-		"style":{"spacing":{"blockGap":"16px"}},
-		"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}
+		"style":{"spacing":{"blockGap":"36px"}},
+		"layout":{"type":"default"}
 	} -->
 	<div class="wp-block-group alignwide">
 
@@ -60,10 +60,10 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:list {"style":{"spacing":{"blockGap":"12px"}}} -->
 			<ul class="wp-block-list">
-				<!-- wp:list-item --><li>HTML5 / CSS3 / SASS</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>Tailwind / SASS</li><!-- /wp:list-item -->
 				<!-- wp:list-item --><li>JavaScript (ES6+)</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>Tailwind CSS</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>Alpine.js</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>Typescript</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>React</li><!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->
 		</div>
@@ -76,10 +76,9 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:list {"style":{"spacing":{"blockGap":"12px"}}} -->
 			<ul class="wp-block-list">
-				<!-- wp:list-item --><li>WordPress (Custom Plugins)</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>PHP 8+</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>Custom WordPress Plugins</li><!-- /wp:list-item -->
 				<!-- wp:list-item --><li>Advanced Custom Fields Pro</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>WP REST API / WPGraphQL</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>WordPress REST API</li><!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->
 		</div>
@@ -93,9 +92,8 @@
 			<!-- wp:list {"style":{"spacing":{"blockGap":"12px"}}} -->
 			<ul class="wp-block-list">
 				<!-- wp:list-item --><li>Core Web Vitals</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>Technical SEO Audits</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>Technical SEO</li><!-- /wp:list-item -->
 				<!-- wp:list-item --><li>Schema &amp; Structured Data</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>Caching &amp; CDN Tuning</li><!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->
 		</div>
@@ -109,8 +107,6 @@
 			<!-- wp:list {"style":{"spacing":{"blockGap":"12px"}}} -->
 			<ul class="wp-block-list">
 				<!-- wp:list-item --><li>WP-CLI / Git</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>Docker</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>GitHub Actions (CI/CD)</li><!-- /wp:list-item -->
 				<!-- wp:list-item --><li>Claude Code / Cursor</li><!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->

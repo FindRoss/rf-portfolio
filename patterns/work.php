@@ -19,8 +19,8 @@
     
     <!-- wp:group {
 	 	"align": "wide",
-		"style":{"spacing":{"blockGap":"16px"}},
-		"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}
+		"style":{"spacing":{"blockGap":"36px"}},
+		"layout":{"type":"default"}
 	} -->
 	<div class="wp-block-group alignwide">
 
