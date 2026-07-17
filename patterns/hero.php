@@ -23,10 +23,11 @@
 <div class="wp-block-group alignfull rfp-container">
 
 	<!-- wp:group {
+	 	"align": "wide",
 		"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},
 		"layout":{"type":"default"}
 	} -->
-	<div class="wp-block-group">
+	<div class="wp-block-group alignwide">
 
 		<!-- wp:heading {
 			"level":1,

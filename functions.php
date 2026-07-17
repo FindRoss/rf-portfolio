@@ -41,5 +41,6 @@ add_action( 'wp_enqueue_scripts', function () {
 
 	if ( is_front_page() ) {
 		wp_enqueue_style( 'rf-portfolio-stack', get_theme_file_uri( '/inc/css/stack.css' ), [], wp_get_theme()->get( 'Version' ) );
+		wp_enqueue_style( 'rf-portfolio-work', get_theme_file_uri( '/inc/css/work.css' ), [], wp_get_theme()->get( 'Version' ) );
 	}
 } );
