@@ -12,11 +12,16 @@
     "align": "full", 
     "backgroundColor": "subtle",
     "className": "rfp-container",
-    "style": { "spacing": {"padding": {"top": "var:preset|spacing|xl", "bottom": "var:preset|spacing|xl"} }},
+    "style": { 
+        "spacing": {
+            "margin": {"top": "0"},
+            "padding": {"top": "var:preset|spacing|xl", "bottom": "var:preset|spacing|xl"} 
+        }
+    },
     "layout": {"type": "constrained"}
 } -->
 
-<div id="about" class="wp-block-group alignfull rfp-container has-subtle-background-color has-background" style="padding-top: var(--wp--preset--spacing--xl); padding-bottom: var(--wp--preset--spacing--xl)">
+<div id="about" class="wp-block-group alignfull rfp-container has-subtle-background-color has-background" style="margin-top: 0; padding-top: var(--wp--preset--spacing--xl); padding-bottom: var(--wp--preset--spacing--xl)">
 
     <!-- wp:group {
         "layout": {"type":"constrained", "contentSize":"900px"} 
