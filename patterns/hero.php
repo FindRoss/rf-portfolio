@@ -79,7 +79,7 @@
 			}
 		} -->
 		<div class="wp-block-button">
-			<a class="wp-block-button__link has-contrast-color has-text-color has-background has-base-font-size wp-element-button" href="#contact" style="border-radius:100px;border-color:var(--wp--preset--color--contrast);border-width:2px;border-style:solid;background-color:transparent;padding-top:18px;padding-right:32px;padding-bottom:18px;padding-left:32px;font-weight:600">Get in touch</a>
+			<a class="wp-block-button__link has-contrast-color has-text-color has-background has-base-font-size wp-element-button" href="mailto:rosspfindlay@gmail.com?subject=Let's Talk" style="border-radius:100px;border-color:var(--wp--preset--color--contrast);border-width:2px;border-style:solid;background-color:transparent;padding-top:18px;padding-right:32px;padding-bottom:18px;padding-left:32px;font-weight:600">Get in touch</a>
 		</div>
 		<!-- /wp:button -->
 
