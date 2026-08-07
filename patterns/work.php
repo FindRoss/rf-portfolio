@@ -60,17 +60,17 @@
 					<p class="has-faint-color has-text-color has-mono-font-family has-sm-font-size has-text-align-center">Project screenshot</p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
-					<p class="rfp-work-tag has-mono-font-family has-xs-font-size" style="font-weight:600">Headless</p>
+					<p class="rfp-work-tag has-mono-font-family has-xs-font-size" style="font-weight:600">React</p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"700","letterSpacing":"-0.01em"},"spacing":{"margin":{"top":"var:preset|spacing|sm","bottom":"var:preset|spacing|xs"}}}} -->
-				<h3 class="wp-block-heading" style="font-weight:700;letter-spacing:-0.01em;margin-top:var(--wp--preset--spacing--sm);margin-bottom:var(--wp--preset--spacing--xs)">Northbound Studio</h3>
+				<h3 class="wp-block-heading" style="font-weight:700;letter-spacing:-0.01em;margin-top:var(--wp--preset--spacing--sm);margin-bottom:var(--wp--preset--spacing--xs)">Color Picker</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"sm","textColor":"steel","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">Custom WPGraphQL + Next.js rebuild cutting load times by 60%.</p>
+				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">A color palette manager built with React, Redux Toolkit, and TypeScript.</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
