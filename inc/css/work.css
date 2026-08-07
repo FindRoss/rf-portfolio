@@ -9,6 +9,12 @@
   overflow: hidden;
   margin-bottom: var(--wp--preset--spacing--sm);
 }
+.rfp-work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .rfp-work-tag {
   position: absolute;

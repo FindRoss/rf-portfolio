@@ -39,9 +39,9 @@
 
         <!-- wp:paragraph {
             "fontSize": "xl", 
-            "style": {"typography":{"fontWeight":"600","letterSpacing":"-0.01em","lineHeight":"1.4"},"spacing":{"margin":{"top":"0","bottom":"0"}}} 
+            "style": {"typography":{"fontWeight":"500","letterSpacing":"-0.01em","lineHeight":"1.4"},"spacing":{"margin":{"top":"0","bottom":"0"}}} 
         } --> 
-        <p class="has-xl-font-size" style="font-weight:600;letter-spacing:-0.01em;line-height:1.4;margin-top:0;margin-bottom:0">Write your bio here — a few sentences on your background, how you approach building things, and what you care about as a developer.</p>
+        <p class="has-xl-font-size" style="font-weight:500;letter-spacing:-0.01em;line-height:1.4;margin-top:0;margin-bottom:0">I believe websites should be built to last. Every project is something I'm passing on to future developers, site admins, and stakeholders, so I try to leave it in a better position than I found it. I like building for the people who'll actually use what I make: authors, site admins, the business itself, not just shipping to a spec and moving on.</p>
 		<!-- /wp:paragraph -->
 
 

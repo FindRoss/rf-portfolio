@@ -40,7 +40,7 @@
 				}
 			}
 		} -->
-		<h1 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.03em;line-height:1.25">WordPress,<br>built to <mark style="background-color:var(--wp--preset--color--lime);padding:0 10px">perform.</mark></h1>
+		<h1 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.03em;line-height:1.25">Websites,<br>built to <mark style="background-color:var(--wp--preset--color--lime);padding:0 10px">perform.</mark></h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {
@@ -48,7 +48,7 @@
 			"textColor":"graphite",
 			"style":{"spacing":{"margin":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|md"}}}
 		} -->
-		<p class="has-graphite-color has-text-color has-lg-font-size" style="margin-top:var(--wp--preset--spacing--md);margin-bottom:var(--wp--preset--spacing--md)">I architect custom WordPress themes and plugins for teams who care about speed, technical SEO, and code that doesn't fall apart at scale.</p>
+		<p class="has-graphite-color has-text-color has-lg-font-size" style="margin-top:var(--wp--preset--spacing--md);margin-bottom:var(--wp--preset--spacing--md)">I build fast, accessible websites, from custom WordPress systems to hands-on frontend work. Technical SEO and Core Web Vitals are at the forefront of everything I work on.</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"style": {"spacing":{"blockGap": "16px", "margin": {"top":"var:preset|spacing|sm"}}}} -->

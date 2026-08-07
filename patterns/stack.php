@@ -31,16 +31,15 @@
 			"fontSize":"xxl",
 			"style":{"typography":{"fontWeight":"800","letterSpacing":"-0.02em"}}
 		} -->
-		<h2 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.02em">The stack, layer by layer.</h2>
+		<h2 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.02em">My stack.</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {
-			"fontFamily":"mono",
-			"fontSize":"sm",
+			"fontSize":"md",
 			"textColor":"faint",
-			"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}
+			"style":{"spacing":{"margin":{"top":"16px","bottom":"0"}}}
 		} -->
-		<p class="has-faint-color has-text-color has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0;max-width:340px">Not just theme edits — I work across the full system, from markup to infrastructure.</p>
+		<p class="has-faint-color has-text-color has-md-font-size" style="margin-top:16px;margin-bottom:0;max-width:660px">I work across every layer of a website, from frontend and backend code to schema, analytics, and how it all gets deployed.</p>
 		<!-- /wp:paragraph -->
 
 	</div>
@@ -94,8 +93,11 @@
 				<!-- wp:list-item --><li>Core Web Vitals</li><!-- /wp:list-item -->
 				<!-- wp:list-item --><li>Technical SEO</li><!-- /wp:list-item -->
 				<!-- wp:list-item --><li>Schema &amp; Structured Data</li><!-- /wp:list-item -->
+				 <!-- wp:list-item --><li>GA4, Search Console, &amp; Ahrefs</li><!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->
+
+
 		</div>
 		<!-- /wp:column -->
 
@@ -107,7 +109,8 @@
 			<!-- wp:list {"style":{"spacing":{"blockGap":"12px"}}} -->
 			<ul class="wp-block-list">
 				<!-- wp:list-item --><li>WP-CLI / Git</li><!-- /wp:list-item -->
-				<!-- wp:list-item --><li>Claude Code / Cursor</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>Git</li><!-- /wp:list-item -->
+				<!-- wp:list-item --><li>Claude Code</li><!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->
 		</div>
