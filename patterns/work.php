@@ -1,6 +1,6 @@
 <?php 
 /**
- * Title: Selected Work
+ * Title: Work
  * Slug: rf-portfolio/work
  * Categories: featured, text
  * Description: Grid of selected project cards. 
@@ -29,7 +29,7 @@
 			"fontSize":"xxl",
 			"style":{"typography":{"fontWeight":"800","letterSpacing":"-0.02em"}}
 		} -->
-		<h2 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.02em">Selected work.</h2>
+		<h2 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.02em">Work.</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {
@@ -57,7 +57,7 @@
 				<div class="wp-block-group rfp-work-image">
 					<!-- wp:image {"sizeSlug":"large"} -->
 						<figure class="wp-block-image size-large">
-							<img src="http://localhost:10009/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Describe the screenshot">
+							<img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Screenshot of the colors portfolio project made with React.">
 						</figure>
 					<!-- /wp:image -->
 					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
@@ -98,7 +98,7 @@
 				<div class="wp-block-group rfp-work-image">
 					<!-- wp:image {"sizeSlug":"large"} -->
 						<figure class="wp-block-image size-large">
-							<img src="http://localhost:10009/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900.jpg" alt="Screenshot of BitcoinChaser.com">
+							<img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900-1.jpg" alt="Screenshot of BitcoinChaser.com website">
 						</figure>
 					<!-- /wp:image -->
 					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
@@ -139,7 +139,7 @@
 				<div class="wp-block-group rfp-work-image">
 					<!-- wp:image {"sizeSlug":"large"} -->
 					<figure class="wp-block-image size-large">
-						<img src="http://localhost:10009/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Describe the screenshot">
+						<img src="https://rossfindlay.dev/wp-content/uploads/2026/08/tastes-smokey-whiskey-rating-website__1200x900.jpg" alt="Screenshot of the Tastes Smokey website">
 					</figure>
 					<!-- /wp:image -->
 					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
@@ -149,20 +149,20 @@
 				<!-- /wp:group -->
 
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"700","letterSpacing":"-0.01em"},"spacing":{"margin":{"top":"var:preset|spacing|sm","bottom":"var:preset|spacing|xs"}}}} -->
-				<h3 class="wp-block-heading" style="font-weight:700;letter-spacing:-0.01em;margin-top:var(--wp--preset--spacing--sm);margin-bottom:var(--wp--preset--spacing--xs)">Loam Journal</h3>
+				<h3 class="wp-block-heading" style="font-weight:700;letter-spacing:-0.01em;margin-top:var(--wp--preset--spacing--sm);margin-bottom:var(--wp--preset--spacing--xs)">Tastes Smokey</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"sm","textColor":"steel","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">Technical SEO overhaul and Core Web Vitals fix for a publisher.</p>
+				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">A full-stack whiskey tasting tracker built with React, TypeScript, Express, and PostgreSQL.</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"16px","margin":{"top":"var:preset|spacing|sm"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 				<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--sm)">
 					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://example.com" target="_blank">View site ↗</a></p>
+					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://whiskey-rho.vercel.app/" target="_blank">View site ↗</a></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://github.com/yourname/repo" target="_blank">GitHub ↗</a></p>
+					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://github.com/FindRoss/whiskey" target="_blank">GitHub ↗</a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
