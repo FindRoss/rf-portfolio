@@ -60,9 +60,6 @@
 							<img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Screenshot of the colors portfolio project made with React.">
 						</figure>
 					<!-- /wp:image -->
-					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
-					<p class="rfp-work-tag has-mono-font-family has-xs-font-size" style="font-weight:600">React</p>
-					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 
@@ -72,6 +69,10 @@
 
 				<!-- wp:paragraph {"fontSize":"sm","textColor":"steel","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">A color palette manager built with React, Redux Toolkit, and TypeScript.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph {"fontFamily":"mono","fontSize":"xs","textColor":"faint","style":{"spacing":{"margin":{"top":"var:preset|spacing|xs","bottom":"0"}}}} -->
+				<p class="has-faint-color has-text-color has-mono-font-family has-xs-font-size" style="margin-top:var(--wp--preset--spacing--xs);margin-bottom:0">React · Redux Toolkit · TypeScript</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"16px","margin":{"top":"var:preset|spacing|sm"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
@@ -101,9 +102,6 @@
 							<img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900-1.jpg" alt="Screenshot of BitcoinChaser.com website">
 						</figure>
 					<!-- /wp:image -->
-					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
-					<p class="rfp-work-tag has-mono-font-family has-xs-font-size" style="font-weight:600">WP Child Theme</p>
-					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 
@@ -113,6 +111,10 @@
 
 				<!-- wp:paragraph {"fontSize":"sm","textColor":"steel","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">Custom WordPress theme with a 20-block component library, 4 custom post types, and technical SEO built in.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph {"fontFamily":"mono","fontSize":"xs","textColor":"faint","style":{"spacing":{"margin":{"top":"var:preset|spacing|xs","bottom":"0"}}}} -->
+				<p class="has-faint-color has-text-color has-mono-font-family has-xs-font-size" style="margin-top:var(--wp--preset--spacing--xs);margin-bottom:0">WordPress · ACF Pro · Tailwind</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"16px","margin":{"top":"var:preset|spacing|sm"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
@@ -142,9 +144,6 @@
 						<img src="https://rossfindlay.dev/wp-content/uploads/2026/08/tastes-smokey-whiskey-rating-website__1200x900.jpg" alt="Screenshot of the Tastes Smokey website">
 					</figure>
 					<!-- /wp:image -->
-					<!-- wp:paragraph {"className":"rfp-work-tag","fontFamily":"mono","fontSize":"xs","style":{"typography":{"fontWeight":"600"}}} -->
-					<p class="rfp-work-tag has-mono-font-family has-xs-font-size" style="font-weight:600">SEO Rebuild</p>
-					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 
@@ -154,6 +153,10 @@
 
 				<!-- wp:paragraph {"fontSize":"sm","textColor":"steel","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">A full-stack whiskey tasting tracker built with React, TypeScript, Express, and PostgreSQL.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph {"fontFamily":"mono","fontSize":"xs","textColor":"faint","style":{"spacing":{"margin":{"top":"var:preset|spacing|xs","bottom":"0"}}}} -->
+				<p class="has-faint-color has-text-color has-mono-font-family has-xs-font-size" style="margin-top:var(--wp--preset--spacing--xs);margin-bottom:0">React · TypeScript · Express · PostgreSQL</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"16px","margin":{"top":"var:preset|spacing|sm"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->

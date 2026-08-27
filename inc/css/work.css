@@ -16,14 +16,4 @@
   display: block;
 }
 
-.rfp-work-tag {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  margin: 0;
-  background: var(--wp--preset--color--lime);
-  padding: 4px 10px;
-  border: 1px solid var(--wp--preset--color--contrast);
-}
-
 /*# sourceMappingURL=work.css.map */
