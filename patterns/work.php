@@ -175,6 +175,48 @@
 		</div>
 		<!-- /wp:column -->
 
+			<!-- wp:column -->
+		<div class="wp-block-column">
+			<!-- wp:group {"className":"rfp-work-card","style":{"spacing":{"blockGap":"0"}}} -->
+			<div class="wp-block-group rfp-work-card">
+				<!-- wp:group {"className":"rfp-work-image"} -->
+				<div class="wp-block-group rfp-work-image">
+					<!-- wp:image {"sizeSlug":"large"} -->
+					<figure class="wp-block-image size-large">
+						<img src="https://rossfindlay.dev/wp-content/uploads/2026/09/banjo-chords-app__1200x600.jpg" alt="Screenshot of my Banjo chords website">
+					</figure>
+					<!-- /wp:image -->
+				</div>
+				<!-- /wp:group -->
+
+				<!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"700","letterSpacing":"-0.01em"},"spacing":{"margin":{"top":"var:preset|spacing|sm","bottom":"var:preset|spacing|xs"}}}} -->
+				<h3 class="wp-block-heading" style="font-weight:700;letter-spacing:-0.01em;margin-top:var(--wp--preset--spacing--sm);margin-bottom:var(--wp--preset--spacing--xs)">Banjo Chords</h3>
+				<!-- /wp:heading -->
+
+				<!-- wp:paragraph {"fontSize":"sm","textColor":"steel","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+				<p class="has-steel-color has-text-color has-sm-font-size" style="margin-top:0;margin-bottom:0">A banjo chord chart app built with React, TypeScript, and Vite, with fretboard diagrams and saved chord collections persisted in localStorage.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph {"fontFamily":"mono","fontSize":"xs","textColor":"faint","style":{"spacing":{"margin":{"top":"var:preset|spacing|xs","bottom":"0"}}}} -->
+				<p class="has-faint-color has-text-color has-mono-font-family has-xs-font-size" style="margin-top:var(--wp--preset--spacing--xs);margin-bottom:0">React · TypeScript · Express · PostgreSQL</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:group {"style":{"spacing":{"blockGap":"16px","margin":{"top":"var:preset|spacing|sm"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+				<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--sm)">
+					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://banjo-ruddy.vercel.app/" target="_blank">View site ↗</a></p>
+					<!-- /wp:paragraph -->
+					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://github.com/FindRoss/banjo" target="_blank">GitHub ↗</a></p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:column -->
+
 	</div>
 	<!-- /wp:columns -->
 
