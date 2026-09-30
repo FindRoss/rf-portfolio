@@ -44,3 +44,11 @@ add_action( 'wp_enqueue_scripts', function () {
 		wp_enqueue_style( 'rf-portfolio-work', get_theme_file_uri( '/inc/css/work.css' ), [], wp_get_theme()->get( 'Version' ) );
 	}
 } );
+
+add_action( 'wp_head', function () {
+	?>
+		<link rel="icon" href="<?php echo esc_url( get_theme_file_uri( '/assets/images/favicon.svg' ) ); ?>" type="image/svg+xml">
+		<link rel="icon" href="<?php echo esc_url( get_theme_file_uri( '/assets/images/rf-icon-32.png' ) ); ?>" sizes="32x32">
+		<link rel="apple-touch-icon" href="<?php echo esc_url( get_theme_file_uri( '/assets/images/rf-icon-180.png' ) ); ?>">
+	<?php
+} );
