@@ -235,7 +235,7 @@
 			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-image">
 				<!-- wp:image {"linkDestination":"custom","href":"/work/banjo-chords/","className":"rfp-work-image-card","sizeSlug":"large"} -->
-				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/banjo-chords/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/09/banjo-chords-app__1200x600.jpg" alt="Screenshot of my Banjo chords website"/></a></figure>
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/banjo-chords/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/10/banjo-chords-app__1200x900.jpg" alt="Screenshot of my Banjo chords website"/></a></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
