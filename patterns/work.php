@@ -198,7 +198,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"fontFamily":"mono","fontSize":"xs","textColor":"faint","style":{"spacing":{"margin":{"top":"var:preset|spacing|xs","bottom":"0"}}}} -->
-				<p class="has-faint-color has-text-color has-mono-font-family has-xs-font-size" style="margin-top:var(--wp--preset--spacing--xs);margin-bottom:0">React · TypeScript · Express · PostgreSQL</p>
+				<p class="has-faint-color has-text-color has-mono-font-family has-xs-font-size" style="margin-top:var(--wp--preset--spacing--xs);margin-bottom:0">React · TypeScript · Vite</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"16px","margin":{"top":"var:preset|spacing|sm"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
