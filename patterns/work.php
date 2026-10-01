@@ -51,8 +51,8 @@
 
 			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-image">
-				<!-- wp:image {"linkDestination":"custom","href":"/work/bitcoinchaser/","className":"rfp-work-image-card","sizeSlug":"large"} -->
-				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/bitcoinchaser/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900-1.jpg" alt="Screenshot of BitcoinChaser.com website"/></a></figure>
+				<!-- wp:image {"linkDestination":"custom","href":"/case-studies/bitcoinchaser/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/case-studies/bitcoinchaser/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900-1.jpg" alt="Screenshot of BitcoinChaser.com website"/></a></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -89,7 +89,7 @@
 				<!-- wp:group {"className":"rfp-work-actions","layout":{"type":"flex","flexWrap":"wrap","alignItems":"center"}} -->
 				<div class="wp-block-group rfp-work-actions">
 					<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/work/bitcoinchaser/">Read case study →</a></p>
+					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/case-studies/bitcoinchaser/">Read case study →</a></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://bitcoinchaser.com" target="_blank">View site ↗</a></p>
@@ -111,8 +111,8 @@
 
 			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-image">
-				<!-- wp:image {"linkDestination":"custom","href":"/work/tastes-smokey/","className":"rfp-work-image-card","sizeSlug":"large"} -->
-				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/tastes-smokey/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/tastes-smokey-whiskey-rating-website__1200x900.jpg" alt="Screenshot of the Tastes Smokey website"/></a></figure>
+				<!-- wp:image {"linkDestination":"custom","href":"/case-studies/tastes-smokey/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/case-studies/tastes-smokey/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/tastes-smokey-whiskey-rating-website__1200x900.jpg" alt="Screenshot of the Tastes Smokey website"/></a></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -152,7 +152,7 @@
 				<!-- wp:group {"className":"rfp-work-actions","layout":{"type":"flex","flexWrap":"wrap","alignItems":"center"}} -->
 				<div class="wp-block-group rfp-work-actions">
 					<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/work/tastes-smokey/">Read case study →</a></p>
+					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/case-studies/tastes-smokey/">Read case study →</a></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://whiskey-rho.vercel.app/" target="_blank">View site ↗</a></p>
@@ -174,8 +174,8 @@
 
 			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-image">
-				<!-- wp:image {"linkDestination":"custom","href":"/work/color-picker/","className":"rfp-work-image-card","sizeSlug":"large"} -->
-				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/color-picker/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Screenshot of the colors portfolio project made with React."/></a></figure>
+				<!-- wp:image {"linkDestination":"custom","href":"/case-studies/color-picker/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/case-studies/color-picker/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Screenshot of the colors portfolio project made with React."/></a></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -212,7 +212,7 @@
 				<!-- wp:group {"className":"rfp-work-actions","layout":{"type":"flex","flexWrap":"wrap","alignItems":"center"}} -->
 				<div class="wp-block-group rfp-work-actions">
 					<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/work/color-picker/">Read case study →</a></p>
+					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/case-studies/color-picker/">Read case study →</a></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://react-colors-v3.vercel.app" target="_blank">View site ↗</a></p>
@@ -234,8 +234,8 @@
 
 			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-image">
-				<!-- wp:image {"linkDestination":"custom","href":"/work/banjo-chords/","className":"rfp-work-image-card","sizeSlug":"large"} -->
-				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/banjo-chords/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/10/banjo-chords-app__1200x900.jpg" alt="Screenshot of my Banjo chords website"/></a></figure>
+				<!-- wp:image {"linkDestination":"custom","href":"/case-studies/banjo-chords/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/case-studies/banjo-chords/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/10/banjo-chords-app__1200x900.jpg" alt="Screenshot of my Banjo chords website"/></a></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -272,7 +272,7 @@
 				<!-- wp:group {"className":"rfp-work-actions","layout":{"type":"flex","flexWrap":"wrap","alignItems":"center"}} -->
 				<div class="wp-block-group rfp-work-actions">
 					<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/work/banjo-chords/">Read case study →</a></p>
+					<p style="margin-top:0;margin-bottom:0"><a class="rfp-work-cta" href="/case-studies/banjo-chords/">Read case study →</a></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:paragraph {"fontFamily":"mono","fontSize":"sm","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 					<p class="has-mono-font-family has-sm-font-size" style="margin-top:0;margin-bottom:0"><a href="https://banjo-ruddy.vercel.app/" target="_blank">View site ↗</a></p>

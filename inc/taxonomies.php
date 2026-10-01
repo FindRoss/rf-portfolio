@@ -1,7 +1,7 @@
 <?php
 
 add_action( 'init', function () {
-	register_taxonomy( 'genre', [ 'book', 'movie' ], [
+	register_taxonomy( 'genre', [ 'movie' ], [
 		'labels' => [
 			'name'              => 'Genres',
 			'singular_name'     => 'Genre',

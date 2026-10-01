@@ -4,8 +4,8 @@
 // and templates handle layout. PHP is only needed for things
 // the block editor can't express.
 
-require_once get_template_directory() . '/inc/cpt-books.php';
 require_once get_template_directory() . '/inc/cpt-movies.php';
+require_once get_template_directory() . '/inc/cpt-case-studies.php';
 
 add_action( 'after_setup_theme', function () {
 	// Enable default block styles (e.g. the "Outline" button style).
