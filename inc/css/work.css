@@ -14,22 +14,40 @@
 .rfp-work-row-image {
   flex: 7 1 480px;
   min-width: 0;
-  aspect-ratio: 4/3;
-  background: var(--wp--preset--color--subtle);
-  overflow: hidden;
-  margin: 0;
+  margin: 0 0 var(--wp--preset--spacing--sm);
+  padding: clamp(20px, 4vw, 48px);
+  border-radius: 14px;
+  background-color: var(--wp--preset--color--mint);
+  background-image: radial-gradient(rgba(31, 138, 76, 0.22) 1.5px, transparent 1.6px);
+  background-size: 22px 22px;
 }
-.rfp-work-row-image a {
+.rfp-work-row-image .rfp-work-image-card {
+  margin: 0;
+  aspect-ratio: 4/3;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 30px 80px -30px rgba(0, 0, 0, 0.45);
+}
+.rfp-work-row-image .rfp-work-image-card a {
   display: block;
   width: 100%;
   height: 100%;
 }
-.rfp-work-row-image img {
+.rfp-work-row-image .rfp-work-image-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: top;
   display: block;
+}
+.rfp-work-row-image.is-ink {
+  background-color: var(--wp--preset--color--contrast);
+  background-image: radial-gradient(rgba(63, 207, 122, 0.28) 1.5px, transparent 1.6px);
+}
+.rfp-work-row-image.is-grey {
+  background-color: var(--wp--preset--color--subtle);
+  background-image: none;
 }
 
 .rfp-work-row-text {

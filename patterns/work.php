@@ -49,9 +49,13 @@
 		<!-- wp:group {"tagName":"article","className":"rfp-work-row"} -->
 		<article class="wp-block-group rfp-work-row">
 
-			<!-- wp:image {"linkDestination":"custom","href":"/work/bitcoinchaser/","className":"rfp-work-row-image","sizeSlug":"large"} -->
-			<figure class="wp-block-image size-large rfp-work-row-image"><a href="/work/bitcoinchaser/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900-1.jpg" alt="Screenshot of BitcoinChaser.com website"/></a></figure>
-			<!-- /wp:image -->
+			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
+			<div class="wp-block-group rfp-work-row-image">
+				<!-- wp:image {"linkDestination":"custom","href":"/work/bitcoinchaser/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/bitcoinchaser/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-of-bitcoinchaser-com__1200x900-1.jpg" alt="Screenshot of BitcoinChaser.com website"/></a></figure>
+				<!-- /wp:image -->
+			</div>
+			<!-- /wp:group -->
 
 			<!-- wp:group {"className":"rfp-work-row-text","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-text">
@@ -105,9 +109,13 @@
 		<!-- wp:group {"tagName":"article","className":"rfp-work-row"} -->
 		<article class="wp-block-group rfp-work-row">
 
-			<!-- wp:image {"linkDestination":"custom","href":"/work/tastes-smokey/","className":"rfp-work-row-image","sizeSlug":"large"} -->
-			<figure class="wp-block-image size-large rfp-work-row-image"><a href="/work/tastes-smokey/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/tastes-smokey-whiskey-rating-website__1200x900.jpg" alt="Screenshot of the Tastes Smokey website"/></a></figure>
-			<!-- /wp:image -->
+			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
+			<div class="wp-block-group rfp-work-row-image">
+				<!-- wp:image {"linkDestination":"custom","href":"/work/tastes-smokey/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/tastes-smokey/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/tastes-smokey-whiskey-rating-website__1200x900.jpg" alt="Screenshot of the Tastes Smokey website"/></a></figure>
+				<!-- /wp:image -->
+			</div>
+			<!-- /wp:group -->
 
 			<!-- wp:group {"className":"rfp-work-row-text","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-text">
@@ -164,9 +172,13 @@
 		<!-- wp:group {"tagName":"article","className":"rfp-work-row"} -->
 		<article class="wp-block-group rfp-work-row">
 
-			<!-- wp:image {"linkDestination":"custom","href":"/work/color-picker/","className":"rfp-work-row-image","sizeSlug":"large"} -->
-			<figure class="wp-block-image size-large rfp-work-row-image"><a href="/work/color-picker/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Screenshot of the colors portfolio project made with React."/></a></figure>
-			<!-- /wp:image -->
+			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
+			<div class="wp-block-group rfp-work-row-image">
+				<!-- wp:image {"linkDestination":"custom","href":"/work/color-picker/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/color-picker/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/08/screenshot-react-colors__1200x900.png" alt="Screenshot of the colors portfolio project made with React."/></a></figure>
+				<!-- /wp:image -->
+			</div>
+			<!-- /wp:group -->
 
 			<!-- wp:group {"className":"rfp-work-row-text","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-text">
@@ -220,9 +232,13 @@
 		<!-- wp:group {"tagName":"article","className":"rfp-work-row"} -->
 		<article class="wp-block-group rfp-work-row">
 
-			<!-- wp:image {"linkDestination":"custom","href":"/work/banjo-chords/","className":"rfp-work-row-image","sizeSlug":"large"} -->
-			<figure class="wp-block-image size-large rfp-work-row-image"><a href="/work/banjo-chords/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/09/banjo-chords-app__1200x600.jpg" alt="Screenshot of my Banjo chords website"/></a></figure>
-			<!-- /wp:image -->
+			<!-- wp:group {"className":"rfp-work-row-image","layout":{"type":"default"}} -->
+			<div class="wp-block-group rfp-work-row-image">
+				<!-- wp:image {"linkDestination":"custom","href":"/work/banjo-chords/","className":"rfp-work-image-card","sizeSlug":"large"} -->
+				<figure class="wp-block-image size-large rfp-work-image-card"><a href="/work/banjo-chords/"><img src="https://rossfindlay.dev/wp-content/uploads/2026/09/banjo-chords-app__1200x600.jpg" alt="Screenshot of my Banjo chords website"/></a></figure>
+				<!-- /wp:image -->
+			</div>
+			<!-- /wp:group -->
 
 			<!-- wp:group {"className":"rfp-work-row-text","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group rfp-work-row-text">

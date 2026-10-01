@@ -36,6 +36,11 @@
 					"name": "Green Bright"
 				},
 				{
+					"slug": "mint",
+					"color": "#E3F1E8",
+					"name": "Mint"
+				},
+				{
 					"slug": "graphite",
 					"color": "#333333",
 					"name": "Graphite"
