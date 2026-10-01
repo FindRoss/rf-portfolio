@@ -1,0 +1,121 @@
+// Intro: title gets a green full stop appended via CSS, since
+// wp:post-title's text is dynamic — nothing to hand-type a <span> into.
+.rfp-case-title::after {
+	content: ".";
+	color: var(--wp--preset--color--green);
+}
+
+.rfp-case-summary {
+	max-width: 760px;
+}
+
+.rfp-builtwith-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+	border-top: 1px solid var(--wp--preset--color--divider);
+	border-left: 1px solid var(--wp--preset--color--divider);
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.rfp-icon-tile {
+	background: var(--wp--preset--color--base);
+	padding: 36px 24px 28px;
+	border-right: 1px solid var(--wp--preset--color--divider);
+	border-bottom: 1px solid var(--wp--preset--color--divider);
+}
+
+.rfp-icon {
+	display: block;
+	color: var(--wp--preset--color--contrast);
+}
+
+.rfp-case-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.rfp-case-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 100px;
+
+	.rfp-arrow {
+		font-size: 18px;
+	}
+}
+
+.rfp-case-btn--filled {
+	background: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+	padding: 18px 32px;
+
+	&:hover {
+		background: var(--wp--preset--color--green);
+		color: var(--wp--preset--color--base);
+	}
+}
+
+.rfp-case-btn--outline {
+	background: transparent;
+	color: var(--wp--preset--color--contrast);
+	border: 2px solid var(--wp--preset--color--contrast);
+	padding: 16px 30px;
+
+	&:hover {
+		border-color: var(--wp--preset--color--green);
+		color: var(--wp--preset--color--green);
+	}
+}
+
+// Shared "split" chapter layout — heading column + content column.
+// Used by Overview, The results, and Next steps.
+.rfp-split-heading {
+	flex: 1 1 260px;
+}
+
+.rfp-split-text {
+	flex: 2 1 480px;
+	min-width: 0;
+	max-width: 720px;
+	padding-top: 34px;
+}
+
+// Screenshot frame — same mint-dot backdrop as the homepage Work section,
+// used here for the hero screenshot (and later, the Results gallery).
+// NOTE: this duplicates .rfp-work-row-image / .rfp-work-image-card in
+// work.scss — worth consolidating into one shared utility later.
+.rfp-shot {
+	display: flex;
+	justify-content: center;
+	padding: clamp(24px, 6vw, 88px);
+	border-radius: 14px;
+	background-color: var(--wp--preset--color--mint);
+	background-image: radial-gradient(rgba(31, 138, 76, 0.22) 1.5px, transparent 1.6px);
+	background-size: 22px 22px;
+}
+
+.rfp-shot-inner {
+	width: 100%;
+	max-width: 880px;
+	aspect-ratio: 4 / 3;
+	margin: 0;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 30px 80px -30px rgba(0, 0, 0, 0.45);
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: top;
+		display: block;
+	}
+}

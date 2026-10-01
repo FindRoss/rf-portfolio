@@ -6,6 +6,7 @@
 
 require_once get_template_directory() . '/inc/cpt-movies.php';
 require_once get_template_directory() . '/inc/cpt-case-studies.php';
+require_once get_template_directory() . '/inc/block-case-links.php';
 
 add_action( 'after_setup_theme', function () {
 	// Enable default block styles (e.g. the "Outline" button style).
@@ -43,6 +44,10 @@ add_action( 'wp_enqueue_scripts', function () {
 		wp_enqueue_style( 'rf-portfolio-skills', get_theme_file_uri( '/inc/css/skills.css' ), [], wp_get_theme()->get( 'Version' ) );
 		wp_enqueue_style( 'rf-portfolio-work', get_theme_file_uri( '/inc/css/work.css' ), [], wp_get_theme()->get( 'Version' ) );
 		wp_enqueue_style( 'rf-portfolio-about', get_theme_file_uri( '/inc/css/about.css' ), [], wp_get_theme()->get( 'Version' ) );
+	}
+
+	if ( is_singular( 'case_study' ) ) {
+		wp_enqueue_style( 'rf-portfolio-case-study', get_theme_file_uri( '/inc/css/case-study.css' ), [], wp_get_theme()->get( 'Version' ) );
 	}
 } );
 

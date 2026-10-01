@@ -41,6 +41,11 @@
 					"name": "Mint"
 				},
 				{
+					"slug": "divider",
+					"color": "#E2E2DC",
+					"name": "Divider"
+				},
+				{
 					"slug": "graphite",
 					"color": "#333333",
 					"name": "Graphite"
