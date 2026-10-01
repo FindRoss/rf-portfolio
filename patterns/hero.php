@@ -40,7 +40,7 @@
 				}
 			}
 		} -->
-		<h1 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.03em;line-height:1.25">Websites,<br>built to <mark style="background-color:var(--wp--preset--color--lime);padding:0 10px">perform.</mark></h1>
+		<h1 class="wp-block-heading has-xxl-font-size" style="font-weight:800;letter-spacing:-0.03em;line-height:1.25">Websites,<br>built to perform<span style="color:var(--wp--preset--color--green)">.</span></h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {

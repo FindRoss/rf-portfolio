@@ -26,9 +26,14 @@
 					"name": "Subtle"
 				},
 				{
-					"slug": "lime",
-					"color": "#E8FF5C",
-					"name": "Lime"
+					"slug": "green",
+					"color": "#1f8a4c",
+					"name": "Green"
+				},
+				{
+					"slug": "green-bright",
+					"color": "#3fcf7a",
+					"name": "Green Bright"
 				},
 				{
 					"slug": "graphite",
@@ -193,8 +198,9 @@
 				}
 			},
 			"link": {
-				"color": { "text": "var(--wp--preset--color--accent)" },
+				"color": { "text": "var(--wp--preset--color--contrast)" },
 				":hover": {
+					"color": { "text": "var(--wp--preset--color--green)" },
 					"typography": { "textDecoration": "none" }
 				}
 			},
