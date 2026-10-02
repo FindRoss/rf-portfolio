@@ -34,3 +34,12 @@ $breakpoint-tablet: 768px;
 		margin: 0;
 	}
 }
+
+// Root blockGap otherwise leaves a gap between <main> and the footer.
+.wp-site-blocks > footer {
+	margin-block-start: 0;
+}
+
+.rfp-footer-credit svg {
+	flex: none;
+}
