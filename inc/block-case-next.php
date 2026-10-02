@@ -22,7 +22,7 @@ add_action( 'init', function () {
 			$thumb = get_the_post_thumbnail( $next, 'large' );
 
 			return sprintf(
-				'<a class="rfp-next-case alignfull" href="%s"><div class="rfp-next-case-inner"><div><p class="rfp-next-case-label">Next case study</p><p class="rfp-next-case-title">%s <span>&rarr;</span></p></div>%s</div></a>',
+				'<a class="rfp-next-case alignfull" href="%s"><div class="rfp-next-case-inner"><div><p class="rfp-next-case-label">Next case study</p><p class="rfp-next-case-title">%s&nbsp;<span>&rarr;</span></p></div>%s</div></a>',
 				esc_url( get_permalink( $next ) ),
 				esc_html( get_the_title( $next ) ),
 				$thumb ? '<div class="rfp-next-case-thumb">' . $thumb . '</div>' : ''

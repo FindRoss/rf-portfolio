@@ -310,6 +310,10 @@
 @media (max-width: 760px) {
 	.rfp-ch-head {
 		display: none;
+
+		& + .rfp-ch-row {
+			border-top: 0;
+		}
 	}
 
 	.rfp-ch-row {

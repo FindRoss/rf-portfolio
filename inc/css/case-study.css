@@ -292,6 +292,9 @@
   .rfp-ch-head {
     display: none;
   }
+  .rfp-ch-head + .rfp-ch-row {
+    border-top: 0;
+  }
   .rfp-ch-row {
     grid-template-columns: 1fr;
     row-gap: 12px;
