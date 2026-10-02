@@ -24,6 +24,11 @@ add_action( 'init', function () {
 				'acf'        => [ 'ACF', 'Structured content fields' ],
 				'git'        => [ 'Git', 'Version control & deployment' ],
 				'node'       => [ 'Node.js', 'Build tooling & server-side JS' ],
+				'express'    => [ 'Express', 'Backend API & routing' ],
+				'redux'      => [ 'Redux Toolkit', 'Predictable app state' ],
+				'materialui' => [ 'Material UI', 'Ready-made React components' ],
+				'vercel'     => [ 'Vercel', 'Hosting & deployment' ],
+				'jwt'        => [ 'Authentication (JWT)', 'Secure token-based login' ],
 			];
 
 			$out = '<div class="rfp-builtwith-grid">';

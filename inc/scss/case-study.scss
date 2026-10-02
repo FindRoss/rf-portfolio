@@ -252,3 +252,68 @@
 		display: block;
 	}
 }
+
+// Challenges table: Challenge / Before / After
+.rfp-challenges {
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.rfp-ch-row {
+	display: grid;
+	grid-template-columns: 1fr 1.36fr 1.28fr;
+	column-gap: clamp(1.5rem, 3vw, 3rem);
+	align-items: baseline;
+	padding: 36px clamp(24px, 4vw, 44px);
+
+	& + & {
+		border-top: 1px solid rgba(255, 255, 255, 0.12);
+	}
+}
+
+.rfp-ch-head {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.rfp-ch-label {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 13px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
+.rfp-ch-title {
+	font-size: clamp(1.5rem, 2.4vw, 1.75rem);
+	font-weight: 800;
+	letter-spacing: -0.02em;
+	line-height: 1.2;
+}
+
+.rfp-ch-before,
+.rfp-ch-after {
+	font-size: clamp(1rem, 1.6vw, 1.125rem);
+	line-height: 1.5;
+}
+
+.rfp-ch-after {
+	display: flex;
+	gap: 14px;
+
+	&::before {
+		content: "\2192";
+		flex: none;
+		color: var(--wp--preset--color--green-bright);
+	}
+}
+
+@media (max-width: 760px) {
+	.rfp-ch-head {
+		display: none;
+	}
+
+	.rfp-ch-row {
+		grid-template-columns: 1fr;
+		row-gap: 12px;
+	}
+}
