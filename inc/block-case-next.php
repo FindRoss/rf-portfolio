@@ -25,7 +25,7 @@ add_action( 'init', function () {
 				'<a class="rfp-next-case alignfull" href="%s"><div class="rfp-next-case-inner"><div><p class="rfp-next-case-label">Next case study</p><p class="rfp-next-case-title">%s&nbsp;<span>&rarr;</span></p></div>%s</div></a>',
 				esc_url( get_permalink( $next ) ),
 				esc_html( get_the_title( $next ) ),
-				$thumb ? '<div class="rfp-next-case-thumb">' . $thumb . '</div>' : ''
+				$thumb ? '<div class="rfp-next-case-thumb"><div class="rfp-next-case-shot">' . $thumb . '</div></div>' : ''
 			);
 		},
 	] );

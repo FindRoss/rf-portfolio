@@ -239,10 +239,21 @@
 }
 
 .rfp-next-case-thumb {
-	width: min(100%, 320px);
+	box-sizing: border-box;
+	width: min(100%, 460px);
+	padding: clamp(16px, 3vw, 32px);
+	border-radius: 14px;
+	background-color: var(--wp--preset--color--mint);
+	background-image: radial-gradient(rgba(31, 138, 76, 0.22) 1.5px, transparent 1.6px);
+	background-size: 22px 22px;
+}
+
+.rfp-next-case-shot {
 	aspect-ratio: 4 / 3;
 	border-radius: 8px;
 	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.45);
 
 	img {
 		width: 100%;
