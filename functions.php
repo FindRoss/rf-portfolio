@@ -53,6 +53,17 @@ add_action( 'wp_enqueue_scripts', function () {
 	}
 } );
 
+add_action( 'enqueue_block_editor_assets', function () {
+	$file = '/assets/js/editor-blocks.js';
+	wp_enqueue_script(
+		'rf-portfolio-editor-blocks',
+		get_theme_file_uri( $file ),
+		[ 'wp-blocks', 'wp-element', 'wp-block-editor', 'wp-server-side-render' ],
+		filemtime( get_theme_file_path( $file ) ),
+		true
+	);
+} );
+
 add_action( 'wp_head', function () {
 	?>
 		<link rel="icon" href="<?php echo esc_url( get_theme_file_uri( '/assets/images/favicon.svg' ) ); ?>" type="image/svg+xml">

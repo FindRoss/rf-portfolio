@@ -2,6 +2,7 @@
 
 add_action( 'init', function () {
 	register_block_type( 'rf-portfolio/case-built-with', [
+		'title'           => 'Case Study Built With',
 		'render_callback' => function () {
 			if ( ! function_exists( 'get_field' ) ) {
 				return '';

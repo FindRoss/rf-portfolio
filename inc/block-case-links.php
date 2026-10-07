@@ -2,6 +2,7 @@
 
 add_action( 'init', function () {
 	register_block_type( 'rf-portfolio/case-links', [
+		'title'           => 'Case Study Links',
 		'render_callback' => function () {
 			if ( ! function_exists( 'get_field' ) ) {
 				return '';

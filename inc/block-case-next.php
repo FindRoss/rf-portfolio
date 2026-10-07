@@ -2,6 +2,7 @@
 
 add_action( 'init', function () {
 	register_block_type( 'rf-portfolio/case-next', [
+		'title'           => 'Next Case Study',
 		'render_callback' => function () {
 			$ids = get_posts( [
 				'post_type'      => 'case_study',
@@ -11,7 +12,7 @@ add_action( 'init', function () {
 				'fields'         => 'ids',
 			] );
 
-			$current = get_queried_object_id();
+			$current = get_queried_object_id() ?: get_the_ID();
 			$index   = array_search( $current, $ids, true );
 
 			if ( $index === false || count( $ids ) < 2 ) {
