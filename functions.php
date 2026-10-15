@@ -9,6 +9,7 @@ require_once get_template_directory() . '/inc/cpt-case-studies.php';
 require_once get_template_directory() . '/inc/block-case-links.php';
 require_once get_template_directory() . '/inc/block-case-built-with.php';
 require_once get_template_directory() . '/inc/block-case-next.php';
+require_once get_template_directory() . '/inc/block-work-rows.php';
 
 add_action( 'after_setup_theme', function () {
 	// Enable default block styles (e.g. the "Outline" button style).

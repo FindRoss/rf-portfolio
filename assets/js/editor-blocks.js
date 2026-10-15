@@ -5,6 +5,8 @@
 		[ 'rf-portfolio/case-links', 'Case Study Links' ],
 		[ 'rf-portfolio/case-built-with', 'Case Study Built With' ],
 		[ 'rf-portfolio/case-next', 'Next Case Study' ],
+		[ 'rf-portfolio/work-count', 'Work Count' ],
+		[ 'rf-portfolio/work-rows', 'Work Rows' ],
 	].forEach( function ( block ) {
 		blocks.registerBlockType( block[ 0 ], {
 			apiVersion: 3,

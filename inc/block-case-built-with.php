@@ -1,5 +1,25 @@
 <?php
 
+function rfp_tool_catalog() {
+	return [
+		'wordpress'  => [ 'WordPress', 'Theme & plugin architecture' ],
+		'php'        => [ 'PHP', 'Core logic & custom fields' ],
+		'tailwindcss' => [ 'Tailwind CSS', 'Utility-first styling' ],
+		'javascript' => [ 'JavaScript', 'Interactive behaviour' ],
+		'react'      => [ 'React', 'Component-driven interfaces' ],
+		'typescript' => [ 'TypeScript', 'Typed, safer JavaScript' ],
+		'postgresql' => [ 'PostgreSQL', 'Relational data storage' ],
+		'acf'        => [ 'ACF', 'Structured content fields' ],
+		'git'        => [ 'Git', 'Version control & deployment' ],
+		'node'       => [ 'Node.js', 'Build tooling & server-side JS' ],
+		'express'    => [ 'Express', 'Backend API & routing' ],
+		'redux'      => [ 'Redux Toolkit', 'Predictable app state' ],
+		'materialui' => [ 'Material UI', 'Ready-made React components' ],
+		'vercel'     => [ 'Vercel', 'Hosting & deployment' ],
+		'jwt'        => [ 'Authentication (JWT)', 'Secure token-based login' ],
+	];
+}
+
 add_action( 'init', function () {
 	register_block_type( 'rf-portfolio/case-built-with', [
 		'title'           => 'Case Study Built With',
@@ -14,23 +34,7 @@ add_action( 'init', function () {
 				return '';
 			}
 
-			$catalog = [
-				'wordpress'  => [ 'WordPress', 'Theme & plugin architecture' ],
-				'php'        => [ 'PHP', 'Core logic & custom fields' ],
-				'tailwindcss' => [ 'Tailwind CSS', 'Utility-first styling' ],
-				'javascript' => [ 'JavaScript', 'Interactive behaviour' ],
-				'react'      => [ 'React', 'Component-driven interfaces' ],
-				'typescript' => [ 'TypeScript', 'Typed, safer JavaScript' ],
-				'postgresql' => [ 'PostgreSQL', 'Relational data storage' ],
-				'acf'        => [ 'ACF', 'Structured content fields' ],
-				'git'        => [ 'Git', 'Version control & deployment' ],
-				'node'       => [ 'Node.js', 'Build tooling & server-side JS' ],
-				'express'    => [ 'Express', 'Backend API & routing' ],
-				'redux'      => [ 'Redux Toolkit', 'Predictable app state' ],
-				'materialui' => [ 'Material UI', 'Ready-made React components' ],
-				'vercel'     => [ 'Vercel', 'Hosting & deployment' ],
-				'jwt'        => [ 'Authentication (JWT)', 'Secure token-based login' ],
-			];
+			$catalog = rfp_tool_catalog();
 
 			$out = '<div class="rfp-builtwith-grid">';
 
