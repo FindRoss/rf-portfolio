@@ -11,6 +11,11 @@ require_once get_template_directory() . '/inc/block-case-built-with.php';
 require_once get_template_directory() . '/inc/block-case-next.php';
 require_once get_template_directory() . '/inc/block-work-rows.php';
 
+// Version stylesheets by file modified time so edits bypass the browser cache.
+function rfp_asset_ver( $file ) {
+	return filemtime( get_theme_file_path( $file ) );
+}
+
 add_action( 'after_setup_theme', function () {
 	// Enable default block styles (e.g. the "Outline" button style).
 	add_theme_support( 'wp-block-styles' );
@@ -30,7 +35,7 @@ add_action( 'wp_enqueue_scripts', function () {
 		'rf-portfolio-utilities',
 		get_theme_file_uri( '/inc/css/utilities.css' ),
 		[],
-		wp_get_theme()->get( 'Version' )
+		rfp_asset_ver( '/inc/css/utilities.css' )
 	);
 
 	// Load archive-movie specific styles.
@@ -39,18 +44,18 @@ add_action( 'wp_enqueue_scripts', function () {
 			'rf-portfolio-archive-movie',
 			get_theme_file_uri( '/inc/css/archive-movie.css' ),
 			[],
-			wp_get_theme()->get( 'Version' )
+			rfp_asset_ver( '/inc/css/archive-movie.css' )
 		);
 	}
 
 	if ( is_front_page() ) {
-		wp_enqueue_style( 'rf-portfolio-skills', get_theme_file_uri( '/inc/css/skills.css' ), [], wp_get_theme()->get( 'Version' ) );
-		wp_enqueue_style( 'rf-portfolio-work', get_theme_file_uri( '/inc/css/work.css' ), [], wp_get_theme()->get( 'Version' ) );
-		wp_enqueue_style( 'rf-portfolio-about', get_theme_file_uri( '/inc/css/about.css' ), [], wp_get_theme()->get( 'Version' ) );
+		wp_enqueue_style( 'rf-portfolio-skills', get_theme_file_uri( '/inc/css/skills.css' ), [], rfp_asset_ver( '/inc/css/skills.css' ) );
+		wp_enqueue_style( 'rf-portfolio-work', get_theme_file_uri( '/inc/css/work.css' ), [], rfp_asset_ver( '/inc/css/work.css' ) );
+		wp_enqueue_style( 'rf-portfolio-about', get_theme_file_uri( '/inc/css/about.css' ), [], rfp_asset_ver( '/inc/css/about.css' ) );
 	}
 
 	if ( is_singular( 'case_study' ) ) {
-		wp_enqueue_style( 'rf-portfolio-case-study', get_theme_file_uri( '/inc/css/case-study.css' ), [], wp_get_theme()->get( 'Version' ) );
+		wp_enqueue_style( 'rf-portfolio-case-study', get_theme_file_uri( '/inc/css/case-study.css' ), [], rfp_asset_ver( '/inc/css/case-study.css' ) );
 	}
 } );
 
