@@ -19,7 +19,7 @@ add_action( 'init', function () {
 
 			if ( $site_url ) {
 				$out .= sprintf(
-					'<a class="rfp-case-btn rfp-case-btn--filled" href="%s" target="_blank" rel="noopener">View site <span class="rfp-arrow">↗</span></a>',
+					'<a class="rfp-case-btn rfp-case-btn--outline" href="%s" target="_blank" rel="noopener">Live preview <span class="rfp-arrow">↗</span></a>',
 					esc_url( $site_url )
 				);
 			}
