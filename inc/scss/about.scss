@@ -7,3 +7,32 @@
 	min-width: 0;
 	max-width: 720px;
 }
+
+.rfp-contact .wp-block-button__link:hover {
+	background: var(--wp--preset--color--green);
+	color: var(--wp--preset--color--base);
+}
+
+// Button and email share one width, so both edges line up.
+.rfp-contact-actions {
+	.wp-block-buttons,
+	.wp-block-button {
+		width: 100%;
+	}
+
+	.wp-block-button__link {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+}
+
+// More room between the headline and the button when they wrap on mobile.
+.rfp-contact > .wp-block-group {
+	row-gap: 40px;
+}

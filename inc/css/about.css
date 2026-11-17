@@ -8,4 +8,27 @@
   max-width: 720px;
 }
 
+.rfp-contact .wp-block-button__link:hover {
+  background: var(--wp--preset--color--green);
+  color: var(--wp--preset--color--base);
+}
+
+.rfp-contact-actions .wp-block-buttons,
+.rfp-contact-actions .wp-block-button {
+  width: 100%;
+}
+.rfp-contact-actions .wp-block-button__link {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.rfp-contact-actions p {
+  text-align: center;
+}
+
+.rfp-contact > .wp-block-group {
+  row-gap: 40px;
+}
+
 /*# sourceMappingURL=about.css.map */
