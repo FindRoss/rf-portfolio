@@ -29,6 +29,18 @@
 	} -->
 	<div class="wp-block-group alignwide">
 
+		<!-- wp:paragraph {
+			"fontFamily":"mono",
+			"fontSize":"sm",
+			"textColor":"steel",
+			"style":{
+				"typography":{"fontWeight":"500","textTransform":"uppercase","letterSpacing":"0.08em"},
+				"spacing":{"margin":{"top":"0","bottom":"0"}}
+			}
+		} -->
+		<p class="has-steel-color has-text-color has-mono-font-family has-sm-font-size" style="font-weight:500;text-transform:uppercase;letter-spacing:0.08em;margin-top:0;margin-bottom:0">Website Manager &amp; WordPress Developer · Edinburgh</p>
+		<!-- /wp:paragraph -->
+
 		<!-- wp:heading {
 			"level":1,
 			"fontSize": "xxl",
@@ -48,7 +60,7 @@
 			"textColor":"graphite",
 			"style":{"spacing":{"margin":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|md"}}}
 		} -->
-		<p class="has-graphite-color has-text-color has-lg-font-size" style="margin-top:var(--wp--preset--spacing--md);margin-bottom:var(--wp--preset--spacing--md)">I build fast, accessible websites, from custom WordPress systems to hands-on frontend work. Technical SEO and Core Web Vitals are at the forefront of everything I work on.</p>
+		<p class="has-graphite-color has-text-color has-lg-font-size" style="margin-top:var(--wp--preset--spacing--md);margin-bottom:var(--wp--preset--spacing--md)">I build and manage fast, accessible websites, from custom WordPress themes to hands-on frontend work. Technical SEO and Core Web Vitals are at the forefront of everything I work on.</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"style": {"spacing":{"blockGap": "16px", "margin": {"top":"var:preset|spacing|sm"}}}} -->
